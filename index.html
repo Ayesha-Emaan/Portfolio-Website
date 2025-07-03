@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ayesha Emaan - Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    
+<section id="home" class="hero">
+    <div class="hero-content">
+ <h1 class="intro-heading">
+  <span class="intro-line">Hello, It's Me</span>
+  <span class="name">Ayesha Emaan</span>
+  <div class="roles-container">
+    <span class="static-text">And I'm a </span>
+    <span class="dynamic-roles"></span>
+    <span class="cursor">|</span>
+  </div>
+</h1>
+        <p>Welcome to my portfolio! I build stunning, responsive web apps with React/Next.js/Vue. Expert in HTML/CSS/JS for pixel-perfect UIs enhanced with Tailwind and Framer Motion animations. Let's create something extraordinary!</p>
+        <div class="cta-buttons">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+    </div>
+<div class="hero-image">
+  <div class="image-container">
+    <img 
+      src="assets/images/developer-illustration.webp" 
+      alt="Ayesha Emaan - Frontend Developer Illustration"
+      loading="lazy"
+      class="oval-animation"
+    >
+  </div>
+</div>
+</section>
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="assets/images/developer-illustration.webp" alt="Ayesha Emaan" class="profile-img">
+            </div>
+            <div class="about-text">
+                <h3 class="animate-fade">Who I Am</h3>
+                <p class="animate-fade">I'm a passionate front-end developer with expertise in creating responsive and user-friendly websites. I have a strong foundation in HTML, CSS, and JavaScript, and I'm constantly learning new technologies to improve my skills.</p>
+                
+                <h3 class="animate-fade">My Journey</h3>
+                <p class="animate-fade">My journey in web development began when I discovered my passion for creating digital experiences. Since then, I've worked on various projects and continue to expand my knowledge in this ever-evolving field.</p>
+                
+                <div class="about-details">
+                    <div class="detail-item animate-card">
+                        <i class="fas fa-user bounce-icon"></i>
+                        <div>
+                            <h4>Name:</h4>
+                            <p>Ayesha Emaan</p>
+                        </div>
+                    </div>
+                    <div class="detail-item animate-card">
+                        <i class="fas fa-envelope bounce-icon"></i>
+                        <div>
+                            <h4>Email:</h4>
+                            <p>emaanayesha@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="detail-item animate-card">
+                        <i class="fas fa-phone bounce-icon"></i>
+                        <div>
+                            <h4>Phone:</h4>
+                            <p>+92 3491618951</p>
+                        </div>
+                    </div>
+                    <div class="detail-item animate-card">
+                        <i class="fas fa-graduation-cap bounce-icon"></i>
+                        <div>
+                            <h4>Education:</h4>
+                            <p>Computer Science & Engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <div class="container">
+        <h2 class="section-title">My <span class="highlight">Services</span></h2>
+        <p class="section-subtitle">Here's what I can offer to help grow your business or bring your ideas to life</p>
+        
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Web Development</h3>
+                <p>Custom, responsive websites built with modern technologies like React, Vue.js, and Next.js that perform beautifully on all devices.</p>
+                <div class="service-features">
+                    <span><i class="fas fa-check-circle"></i> Responsive Design</span>
+                    <span><i class="fas fa-check-circle"></i> SEO Optimized</span>
+                    <span><i class="fas fa-check-circle"></i> Performance Focused</span>
+                </div>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Beautiful, intuitive interfaces that enhance user experience and drive engagement with your product or service.</p>
+                <div class="service-features">
+                    <span><i class="fas fa-check-circle"></i> User-Centered</span>
+                    <span><i class="fas fa-check-circle"></i> Prototyping</span>
+                    <span><i class="fas fa-check-circle"></i> Accessibility</span>
+                </div>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Pixel-perfect implementation of designs with clean, maintainable code using HTML5, CSS3, and JavaScript.</p>
+                <div class="service-features">
+                    <span><i class="fas fa-check-circle"></i> Animation</span>
+                    <span><i class="fas fa-check-circle"></i> Cross-Browser</span>
+                    <span><i class="fas fa-check-circle"></i> Modern CSS</span>
+                </div>
+            </div>
+            
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-rocket"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Performance Optimization</h3>
+                <p>Make your existing website faster and more efficient with comprehensive performance audits and optimizations.</p>
+                <div class="service-features">
+                    <span><i class="fas fa-check-circle"></i> Speed Tests</span>
+                    <span><i class="fas fa-check-circle"></i> Lazy Loading</span>
+                    <span><i class="fas fa-check-circle"></i> Code Splitting</span>
+                </div>
+            </div>
+            
+            <!-- Service 5 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Code Review</h3>
+                <p>Get expert feedback on your codebase to improve quality, maintainability, and performance.</p>
+                <div class="service-features">
+                    <span><i class="fas fa-check-circle"></i> Best Practices</span>
+                    <span><i class="fas fa-check-circle"></i> Security Checks</span>
+                    <span><i class="fas fa-check-circle"></i> Architecture</span>
+                </div>
+            </div>
+            
+            <!-- Service 6 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-headset"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Technical Support</h3>
+                <p>Ongoing maintenance and support to keep your website running smoothly and securely.</p>
+                <div class="service-features">
+                    <span><i class="fas fa-check-circle"></i> Bug Fixes</span>
+                    <span><i class="fas fa-check-circle"></i> Updates</span>
+                    <span><i class="fas fa-check-circle"></i> Consultation</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Updated Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="projects/project1.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Real Estate Website</h3>
+                    <p>Designed and developed a responsive real estate website frontend using HTML5 and CSS3, featuring property listings with clean UI/UX and mobile-friendly layouts.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ayesha-emaan.github.io/Real-Estate-Website-/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Ayesha-Emaan/Real-Estate-Website-" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="projects/project2.png" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Resume Screener</h3>
+                    <p>ResumeGPT is an AI-powered tool that automates resume screening using OpenAI's GPT-3.5 to match candidates with job descriptions efficiently.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>AI & NLP</span>
+                        <span>Pyhton</span>
+                        <span>Web Dev</span>
+                    </div>
+                     <div class="project-links">
+                        <a href="http://127.0.0.1:5501/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Ayesha-Emaan/AI-Resume-Screener" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="projects/project3.png" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Italian Restaurant Website</h3>
+                    <p>Developed a responsive restaurant website with HTML, CSS, and JavaScript featuring an interactive menu, table reservation system, and gallery showcasing authentic Italian cuisine.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>UI</span>
+                        <span>DOM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ayesha-emaan.github.io/Italian-Restaurant-Website/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Ayesha-Emaan/Italian-Restaurant-Website?tab=readme-ov-file" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 - Age Calculator -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="projects/project4.png" alt="Age Calculator">
+                </div>
+                <div class="project-info">
+                    <h3>Age Calculator</h3>
+                    <p>An interactive web application that calculates precise age in years, months, and days based on birthdate input, with responsive design and validation.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Date API</span>
+                        <span>Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ayesha-emaan.github.io/CodeAlpha_AgeCalculator/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Ayesha-Emaan/CodeAlpha_AgeCalculator" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Project 6 - Portfolio Website -->
+                 <div class="project-card">
+                <div class="project-image">
+                    <img src="projects/project6.png" alt="Portfolio Website">
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>My personal portfolio website showcasing my skills, projects, and experience. Built with modern web technologies and responsive design principles.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Three.js</span>
+                        <span>Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ayesha-emaan.github.io/Portfolio-Website/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Ayesha-Emaan/Portfolio-Website" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 5 - To-Do List -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="projects/project5.png" alt="To-Do List App">
+                </div>
+                <div class="project-info">
+                    <h3>To-Do List Web App</h3>
+                    <p>A feature-rich task management application with add, edit, delete, and filter functionality, plus local storage for persistent data.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Local Storage</span>
+                        <span>CRUD</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ayesha-emaan.github.io/CodeAlpha_ToDoList/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Ayesha-Emaan/CodeAlpha_ToDoList" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-content">
+                <h3 class="skill-heading">Technical Skills</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress html"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress css"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress js"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>React</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress react"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>C++</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress cpp"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress python"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-content">
+                <h3 class="skill-heading">Professional Skills</h3>
+                <div class="professional-skills">
+                    <div class="professional-skill">
+                        <div class="radial-progress" data-progress="95">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle"
+                                    stroke-dasharray="95, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <text x="18" y="20.35" class="percentage">95%</text>
+                            </svg>
+                            <h4>Creativity</h4>
+                        </div>
+                    </div>
+                    <div class="professional-skill">
+                        <div class="radial-progress" data-progress="85">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle"
+                                    stroke-dasharray="85, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <text x="18" y="20.35" class="percentage">85%</text>
+                            </svg>
+                            <h4>Teamwork</h4>
+                        </div>
+                    </div>
+                    <div class="professional-skill">
+                        <div class="radial-progress" data-progress="90">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle"
+                                    stroke-dasharray="90, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <text x="18" y="20.35" class="percentage">90%</text>
+                            </svg>
+                            <h4>Communication</h4>
+                        </div>
+                    </div>
+                    <div class="professional-skill">
+                        <div class="radial-progress" data-progress="80">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle"
+                                    stroke-dasharray="80, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <text x="18" y="20.35" class="percentage">80%</text>
+                            </svg>
+                            <h4>Problem Solving</h4>
+                        </div>
+                    </div>
+                    <div class="professional-skill">
+                        <div class="radial-progress" data-progress="90">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle"
+                                    stroke-dasharray="90, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <text x="18" y="20.35" class="percentage">90%</text>
+                            </svg>
+                            <h4>Leadership</h4>
+                        </div>
+                    </div>
+                    <div class="professional-skill">
+                        <div class="radial-progress" data-progress="85">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle"
+                                    stroke-dasharray="85, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <text x="18" y="20.35" class="percentage">85%</text>
+                            </svg>
+                            <h4>Presentation</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Resume</span></h2>
+            <div class="resume-container">
+                <div class="resume-column">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="resume-item">
+                        <h4>Computer Science & Engineering</h4>
+                        <h5>University of Engineering and Technology Lahore | 2023 - 2027</h5>
+                        <p>Computer Science student specializing in web development, passionate about creating responsive interfaces and mastering modern frontend technologies.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Front-End Development Certification</h4>
+                        <h5>Online Course | 2023</h5>
+                        <p>Completed advanced coursework in modern JavaScript frameworks and responsive design.</p>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3><i class="fas fa-briefcase"></i> Experience</h3>
+                    <div class="resume-item">
+                        <h4>Front-End Developer Intern</h4>
+                        <h5>CodeAlpha | Summer 2025 - Present</h5>
+                        <ul>
+                            <li>Developed responsive web applications using React.js</li>
+                            <li>Collaborated with UX designers to implement user interfaces</li>
+                            <li>Optimized website performance reducing load time by 30%</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Freelance Web Developer</h4>
+                        <h5>Self-Employed | 2024 - Present</h5>
+                        <ul>
+                            <li>Created custom websites for small businesses</li>
+                            <li>Implemented SEO best practices increasing client traffic</li>
+                            <li>Provided maintenance and support services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-download">
+                <a href="assets/documents/Ayesha_Emaan_Resume.pdf" download class="btn">
+                    <i class="fas fa-download"></i> Download Full Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out to me for any questions or opportunities!</p>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>emaanayesha50@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+92 3491618951</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Lahore, Pakistan</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+    <a href="https://github.com/Ayesha-Emaan" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/ayesha-emaan-1b5a1b295/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=61553276366294" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/emaan_ayesha29/" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+
+            </div>
+            
+            <div class="contact-form">
+<form id="contactForm" action="https://formspree.io/f/mzzgwbrw" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="formResponse" style="margin-top:20px; display:none;"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Ayesha Emaan</h2>
+                <p>Front-End Developer</p>
+                <p>Web Developer</p>
+                <p>Computer Scientist</p>
+                <p>Programmer</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> emaanayesha50@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +92 3491618951</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> AyeshaEmaan. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+document.getElementById('contactForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const responseDiv = document.getElementById('formResponse');
+    
+    // Show loading state
+    responseDiv.style.display = 'block';
+    responseDiv.innerHTML = '<p style="color:#3498db">Sending message...</p>';
+    
+    try {
+        const response = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+        });
+        
+        if (response.ok) {
+            responseDiv.innerHTML = '<p style="color:#2ecc71">Message sent successfully!</p>';
+            form.reset();
+        } else {
+            throw new Error('Form submission failed');
+        }
+    } catch (error) {
+        responseDiv.innerHTML = '<p style="color:#e74c3c">Error sending message. Please try again.</p>';
+    }
+    
+    setTimeout(() => responseDiv.style.display = 'none', 5000);
+});
+</script>
+</body>
+</html>
+
+
